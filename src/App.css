@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  color: #eb6cbe;
+  text-shadow: 1px 0 0 red;
+  font-weight: 20ox;
+}
+
+.crypto-swap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.crypto-swap input,
+.crypto-swap button {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.crypto-swap button {
+  padding: 10px;
+  background-color: #13d86f;
+  color: rgb(20, 15, 28);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.crypto-swap button:disabled {
+  background-color: #e7dada;
+}
+.option {
+  color: rgb(255, 98, 0);
+  border: 8px solid rgb(182, 87, 148);
+  border-radius: 15px;
+  border-style: groove;
+}
+.crypto-swap input {
+  padding: 10px;
+  border: 3px solid rgb(39, 13, 13);
+  background-color: aqua;
+  font-size: small;
+}
+.crypto-swap button {
+  border: 2px solid black;
+}
+.message {
+  color: brown;
+  background-color: rgb(101, 212, 237);
+  padding: 5px ;
+
+  
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.messagesuccess{
+  color: brown;
+  background-color: rgb(101, 212, 237);
+  padding: 5px ;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 20px;
+}
